@@ -48,3 +48,5 @@
     --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
   </span>
 </div>
+
+{{ partial "mathjax.html" . }}
